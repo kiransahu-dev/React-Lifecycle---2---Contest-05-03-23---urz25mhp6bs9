@@ -4,6 +4,9 @@ import '../styles/App.css';
 
 
 class App extends React.Component {
+  componentDidMount(){
+    console.log('mountrd');
+  }
 
   handleClick(){
     this.setState({count: this.state.count+1})
